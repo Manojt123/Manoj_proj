@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8911" started-at="2019-11-15T14:11:20Z" finished-at="2019-11-15T14:11:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8911" started-at="2019-11-15T14:11:20Z" finished-at="2019-11-15T14:11:29Z">
+      <class name="Task.OpenTasks">
+        <test-method status="PASS" signature="InitailSetup1()[pri:0, instance:Task.OpenTasks@66480dd7]" name="InitailSetup1" is-config="true" duration-ms="652" started-at="2019-11-15T19:41:21Z" finished-at="2019-11-15T19:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitailSetup1 -->
+        <test-method status="PASS" signature="InitailSetup()[pri:0, instance:Task.OpenTasks@66480dd7]" name="InitailSetup" is-config="true" duration-ms="2" started-at="2019-11-15T19:41:21Z" finished-at="2019-11-15T19:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitailSetup -->
+        <test-method status="PASS" signature="CCM_VR_Soarian_Codes_HCPCS_CPT()[pri:0, instance:Task.OpenTasks@66480dd7]" name="CCM_VR_Soarian_Codes_HCPCS_CPT" duration-ms="8182" started-at="2019-11-15T19:41:21Z" finished-at="2019-11-15T19:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CCM_VR_Soarian_Codes_HCPCS_CPT -->
+        <test-method status="FAIL" signature="FinalSetup()[pri:0, instance:Task.OpenTasks@66480dd7]" name="FinalSetup" is-config="true" duration-ms="0" started-at="2019-11-15T19:41:29Z" finished-at="2019-11-15T19:41:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Task.OpenTasks.FinalSetup(OpenTasks.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalSetup -->
+        <test-method status="SKIP" signature="FinalSetup1()[pri:0, instance:Task.OpenTasks@66480dd7]" name="FinalSetup1" is-config="true" duration-ms="0" started-at="2019-11-15T19:41:29Z" finished-at="2019-11-15T19:41:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalSetup1 -->
+      </class> <!-- Task.OpenTasks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
