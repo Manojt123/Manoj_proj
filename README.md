@@ -2,4 +2,11 @@
 
 This project is in java selenium
 
-Clone url:
+Required Software:
+  -  JDK
+  -  Selenium
+  -  MySQL
+  -  Apache tomcat
+  -  Eclipse
+
+Clone url:https://github.com/Manojt123/Manoj_proj.git
